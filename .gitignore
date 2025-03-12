@@ -1,0 +1,26 @@
+# Ignore compiled class files
+*.class
+
+# Ignore REPL history
+.repl-history
+.calva
+.clj-kondo
+.cpcache
+.lsp
+.nrepl-port
+
+# Ignore Leiningen specific files
+/.lein-*
+
+# Ignore ClojureScript output
+/out
+/target
+
+# Ignore temporary files
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Ignore log files
+*.log
